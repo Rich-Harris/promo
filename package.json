@@ -1,0 +1,9 @@
+{
+  "name": "promo",
+  "description": "Convert node-style callback-based functions into promise-based equivalents for easier composition",
+  "version": "0.1.0",
+  "author": "Rich Harris",
+  "dependencies": {
+    "es6-promise": "^1.0.0"
+  }
+}
