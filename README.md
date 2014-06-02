@@ -12,7 +12,7 @@ $ npm i promo
 
 ## Usage
 
-```
+```js
 var promo = require( 'promo' );
 
 // Take a standard function...
@@ -48,7 +48,7 @@ var readFile = promo( require( 'fs' ).readFile ),
 
 If necessary, you can pass in the context as a second argument:
 
-```
+```js
 var someModule = {
   someMethod: function ( callback ) {
     // because this method uses `this`, we need to
