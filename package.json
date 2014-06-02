@@ -5,5 +5,8 @@
   "author": "Rich Harris",
   "dependencies": {
     "es6-promise": "^1.0.0"
-  }
+  },
+  "keywords": [
+  	"promise"
+  ]
 }
