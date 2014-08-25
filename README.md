@@ -62,6 +62,15 @@ var promisified = promo( someModule.someMethod, someModule );
 
 If you convert a function that references `this`, and don't pass in a context, promo will warn you about it.
 
+Any properties of the function are available after it has been promisified:
+
+```js
+var glob = promo( require( 'glob' ) );
+var matches = glob.sync( 'dir/**' ); // still works
+```
+
+The `Promise` object used under the hood is exposed as `promo.Promise`.
+
 
 ## Credits
 
